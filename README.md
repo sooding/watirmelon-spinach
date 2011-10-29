@@ -2,7 +2,7 @@
 
 This is a simple, working Cucumber + Watir-WebDriver framework, where pages are defined and interacted with.
 
-Build Status: [![Build Status](https://secure.travis-ci.org/alisterscott/WatirMelonCucumber.png)](http://travis-ci.org/alisterscott/WatirMelonCucumber)
+Build Status: [![Build Status](https://secure.travis-ci.org/alisterscott/watirmelon-spinach.png)](http://travis-ci.org/alisterscott/watirmelon-spinach)
 
 # Requirements
 
@@ -24,5 +24,3 @@ Build Status: [![Build Status](https://secure.travis-ci.org/alisterscott/WatirMe
 2. Make sure you 'pik' Ruby
 3. In root directory, run 'bundle install'
 4. Then run 'rake'
-
-

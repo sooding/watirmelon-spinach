@@ -1,9 +1,6 @@
-require 'cucumber'
-require 'cucumber/rake/task'
-
-Cucumber::Rake::Task.new(:cucumber) do |t|
-  t.profile = 'ci'
+desc 'Run spinach features'
+task :spinach do
+  exec "bundle exec spinach"
 end
 
-task :default => :cucumber
-
+task :default => :spinach
